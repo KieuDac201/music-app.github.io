@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.music{
+    width: 295px;
+    height: 530px;
+    background: linear-gradient(to bottom, #072638, #283A45);
+    border-radius: 10px;
+    padding: 45px 25px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+}
+i{
+    cursor: pointer;
+    padding: 3px;
+}
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.body{
+    width: 100%;
+    text-align: center;
+}
+.song-name{
+    font-size: 30px;
+    font-weight: 500;
+}
+.singer-name{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.music-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+.music-control i{
+    font-size: 22px;
+}
+.btn-heart i, .btn-shuffle i {
+    color: rgba(255,255,255, 0.7);
+    font-size: 17px;
+}
+.btn-play{
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    
+}
+.btn-play:hover,
+.btn-next:hover,
+.btn-prev:hover{
+    transition: 0.2s ease;
+    transform: scale(0.95);
+}
+
+.btn-play i{
+    color: rgb(27, 27, 27);
+    position: relative;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer i{
+    color: rgba(255,255,255, 0.4);
+}
+.time{
+    position: relative;
+}
+.time input{
+    width: 100%;
+}
+.time > div{
+    position: absolute;
+    color: rgba(255,255,255, 0.7);
+}
+.time-current{
+    left: 0;
+}
+.time-rest{
+    right: 0;
+}
+.hongNhan{
+    display: none;
+}

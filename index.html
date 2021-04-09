@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="music">
+        <div class="header">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="body">
+            <div class="song-name">Get His Way</div>
+            <div class="singer-name">Waces Places</div>
+            <div class="time">
+                <input type="range" name="time" id="time-progress" min="0" max="100" value="0">
+                <div class="time-current">00:00</div>
+                <div class="time-rest"> -00:00</div>
+            </div>
+            <div class="music-control">
+                <div class="btn-heart">
+                    <i class="far fa-heart"></i>
+                    <!-- <i class="fas fa-heart"></i> -->
+                </div>
+                <div class="btn-prev">
+                    <i class="fas fa-step-backward"></i>
+                </div>
+                <div class="btn-play">
+                    <i class="fas fa-play"></i>
+                    <!-- <i class="fas fa-pause"></i> -->
+                </div>
+                <div class="btn-next">
+                    <i class="fas fa-step-forward"></i>
+                </div>
+                <div class="btn-shuffle">
+                    <i class="fas fa-random"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <i class="fas fa-headphones-alt"></i>
+            <i class="far fa-share-square"></i>
+        </div>
+    </div>
+    <audio class="hongNhan" src="./music/HongNhan.m4a">
+        
+    </audio>
+    <script src="main.js"></script>
+</body>
+</html>
